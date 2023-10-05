@@ -3,7 +3,14 @@
 
 You can do the following commands to get the `csv` file.
 ```bash
-gdown https://drive.google.com/uc\?id\=1hg-zZ2Eo3lcLK4CNWhWjwnIfvFyHjn-_ 
+
+# You need "gdown" to download the dataset. If you have no this package, you can follow the command below to install the package.
+# (Optional)
+pip install gdown
+
+# (Necessary)
+gdown https://drive.google.com/uc\?id\=1hg-zZ2Eo3lcLK4CNWhWjwnIfvFyHjn-_
+
 ```
 
 This document will briefly introduce the PhysioNet2012 dataset. This dataset collects 11988 patients' first 48 hours of ICU records starting from their hospitalization. The default task for the dataset is to predict whether the patient will die after 48 hours.  
