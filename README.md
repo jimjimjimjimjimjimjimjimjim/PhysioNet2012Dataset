@@ -1,6 +1,11 @@
 
 # PhysioNet2012 Dataset
 
+You can do the following commands to get the `csv` file.
+```bash
+gdown https://drive.google.com/uc\?id\=1hg-zZ2Eo3lcLK4CNWhWjwnIfvFyHjn-_ 
+```
+
 This document will briefly introduce the PhysioNet2012 dataset. This dataset collects 11988 patients' first 48 hours of ICU records starting from their hospitalization. The default task for the dataset is to predict whether the patient will die after 48 hours.  
 
 There are three `csv` files: one for training data (`physionet_2012_train.csv`), one for validation data (`physionet_2012_val.csv`), and the other for testing data (`physionet_2012_test.csv`).
